@@ -57,7 +57,7 @@ function criarImagem(linha, coluna, src){
 //Declaração da funçao responsável por criar as imagens do aspirador de pó
 function imagemAspirador(){
 	var seletor = "#img_linha"+roboAspirador.linha+"_coluna"+roboAspirador.coluna;
-	$(seletor).attr("src", "imagens/bebe/bebeSujeira.jpg");
+	$(seletor).attr("src", "./imagens/bebe/bebeSujeira.jpg");
 }
 //------------------------------------------------------------------------------------------//--------------------------------------------------------------------------------
 //Declaração da funçao responsável por atualizar o contador que determina quantos comodôs ainda estão sujos
