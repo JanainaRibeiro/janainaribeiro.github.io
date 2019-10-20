@@ -156,10 +156,10 @@ function acionar(caminho){
 			var limite = 0;
 			if(roboAspirador.coluna > limite){
 				
-				atualizarMovimento("/imagens/bebe/sujeiraTinta.jpg", "/imagens/bebe/LaboratorioLimpo.jpg");
+				atualizarMovimento("./imagens/bebe/sujeiraTinta.jpg", "/imagens/bebe/LaboratorioLimpo.jpg");
 
 				roboAspirador.coluna--;
-				atualizarMovimento("/imagens/bebe/bebeSujeira.jpg", "/imagens/bebe/bebeLimpo.jpg");
+				atualizarMovimento("./imagens/bebe/bebeSujeira.jpg", "/imagens/bebe/bebeLimpo.jpg");
 			}
 			break;
 			
